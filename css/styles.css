@@ -1,0 +1,471 @@
+/* CSS RESET STYLES  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* STYLES START*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Roboto';
+    
+}
+header {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+margin-bottom: 24px;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    size: 18px;
+    line-height: 24px;
+    width: 115px;
+    height: 24px;
+    margin-left: 156px;
+    margin-right: 76px;
+}
+.web {
+    color:#4D5AE5;
+    
+}
+   .nav {
+    display: flex;
+    /* the property of flex container to use flexbox  */
+    flex-wrap: wrap;
+    /* make contents be inside the box  */
+    justify-content: space-between;
+    /* even out contents */
+    padding-top: 24px;
+    
+  
+}
+
+nav > ul {
+    display: flex;
+    
+}
+.nav-link{
+    margin-right: 40px;
+}
+.info-link-1{
+    margin-right: 40px;
+    margin-left: 332px;
+
+}
+
+.info-link-2 {
+    margin: 10px 10px;
+    margin-right: 156px;
+}
+.auth{
+  /* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link::after {
+    opacity: 0.7;
+}
+.info-link-1:hover, .info-link-1:focus, .info-link-2:hover, .info-link-2:focus {
+    opacity: 0.7;
+}
+
+.solutions {
+background-color: #2E2F42;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.solutions-title {
+    /* Effective Solutions for Your Business */
+    position: absolute;
+
+width: 507px;
+margin: 0 auto 48px;
+height: 120px;  
+
+/* Header 1 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+/* or 107% */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+margin: 188px 473px 292px 473px;
+
+}
+
+button {
+    /* Button */
+flex-direction: row;
+align-items: flex-start;
+text-align: center;
+margin-top: 150px;
+
+width: 169px;
+height: 56px;
+
+/* IRIS */
+
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px; 
+border: none;
+cursor: pointer;
+}
+.button:focus, button:active {
+    background: #404BBF;
+}
+.btn-text {
+/* Button Text */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+
+
+}
+
+.aim{
+    width: 1129px;
+    height: 104px;
+    margin: 120px 156px;
+  
+}
+
+.aim-title {
+    /* Strategy */
+
+
+width: 264px;
+height: 24px;
+
+/* Header 3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.features-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.features-item {
+width: 264px;
+height: 104px;
+margin-left: 24px;
+gap: 8px;
+}
+
+.aim-title{ 
+ width: 264px;
+height: 24px;
+
+/* Header 3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+}
+.aim-desc {
+    width: 264px;
+height: 72px;
+
+/* Body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+
+}
+
+.section-2 {
+margin-bottom: 120px;
+}
+
+.section-2-title {
+margin: 120px 598px;
+ width: 333px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+
+.img-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.image-1 {
+    margin-left: 156px;
+    margin-right: 24px;
+}
+.image-2 {
+    margin-right: 24px;
+}
+
+.image-3{
+    margin-right: 156px;
+}
+
+
+.team {
+    height: 732px;
+    /* CLOUD */
+
+background: #F4F4FD;
+}
+
+.team-title {
+    width: 172px;
+    height: 40px;
+    /* Header 2 */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+    
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+    padding: 120px 649px 72px 679px;
+    
+    }
+.team-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 380px;
+    width: 100%;
+    padding: auto 156px;
+}
+.team-member {
+    background: white;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+width: 264px;
+}
+.team-name {
+    padding: 32px 62px 0 ;
+    height: 24px;
+    
+    /* Header 3 */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+}
+
+.team-desc {
+    padding: 8px 60px 32px 60px;
+    width: 148px;
+height: 24px;
+
+/* Body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+
+}
+
+
+.footer {
+    height: 310px;
+    background: #2E2F42;
+}
+
+.footer > .logo {
+    padding-top: 100px;
+   color: #F4F4FD;
+   width: 44px;
+height: 22px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+/* IRIS */
+}
+
+.footer-desc {
+    padding: 16px 1020px 100px 156px ;
+position: absolute;
+width: 264px;
+height: 72px;
+
+/* Body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+
+color: #E7E9FC;
+}
