@@ -44,6 +44,32 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* STYLES START*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
@@ -430,9 +456,9 @@ color: #434455;
 }
 
 .footer > .logo {
-    padding-top: 100px;
-   color: #F4F4FD;
-   width: 44px;
+padding-top: 100px;
+color: #F4F4FD;
+width: 44px;
 height: 22px;
 font-family: 'Raleway';
 font-style: normal;
@@ -449,7 +475,7 @@ letter-spacing: 0.03em;
 }
 
 .footer-desc {
-    padding: 16px 1020px 100px 156px ;
+padding: 16px 1020px 100px 156px ;
 position: absolute;
 width: 264px;
 height: 72px;
