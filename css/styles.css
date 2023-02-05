@@ -644,7 +644,7 @@ color: var(--brand-color);
     width: 359px;
     height: 420px;
     background: white;
-    border: 1px solid #E7E9FC;   
+    border: 1px solid var(--cornflower);   
 
 }
 
