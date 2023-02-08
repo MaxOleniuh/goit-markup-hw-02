@@ -20,7 +20,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: var(--hero-background);
-  letter-spacing: normal;
 }
 ul {
   list-style: none;
@@ -40,13 +39,16 @@ ul {
 }
 /* HEADER(NAV) STYLES */
 .nav {
+  margin-bottom: 24px;
+}
+
+.nav-link {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-  margin-bottom: 24px;
 }
 
 .logo {
@@ -60,25 +62,21 @@ ul {
   color: var(--brand-color);
 }
 
-.auth {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
 /* LINKS STYLES */
 a {
   text-decoration: none;
   color: var(--dark-theme);
 }
-
+.auth-link {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
 .nav-link:hover,
 .nav-link:focus,
-.nav-link::after,
-.info-tel:hover,
-.info-tel::after,
-.info-mail:hover,
-.info-mail:after {
+.auth-link:hover,
+.auth-link:focus {
   color: var(--pressed-state);
 }
 
@@ -170,14 +168,8 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  width: 264px;
 }
 .team-name {
-  padding: 32px 62px 0;
-  height: 24px;
-
-  /* Header 3 */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -194,12 +186,6 @@ img {
 }
 
 .team-desc {
-  padding: 8px 60px 32px 60px;
-  width: 148px;
-  height: 24px;
-
-  /* Body */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -223,8 +209,6 @@ img {
 
 .footer > .logo {
   color: var(--body-background);
-  width: 44px;
-  height: 22px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
@@ -268,6 +252,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color);
+  padding: 12px 24px;
 }
 .btn:hover,
 .btn:focus {
@@ -276,16 +261,10 @@ img {
 }
 
 .project-card {
-  justify-content: left;
-  width: 359px;
-  height: 420px;
   background: var(--body-background);
-  border: 1px solid var(--cornflower);
 }
 
 .project-card-title {
-  width: 290px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
