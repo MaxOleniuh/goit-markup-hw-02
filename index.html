@@ -5,40 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link href="css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER(NAV)-->
     <header>
       <nav class="nav">
         <a href="index.html" class="logo"><span class="web">WEB</span>STUDIO</a>
-        <ul>
-          <li><a href="index.html" class="nav-link">Studio</a></li>
-          <li>
-            <a
-              href="portfolio.html"
-              target="_blank"
-              rel="noopener no referrer nofollow"
-              class="nav-link"
-              >Portfolio</a
-            >
+        <ul class="nav-list">
+          <li class="nav-link">
+            <a href="index.html" class="nav-link">Studio</a>
           </li>
-          <li><a href="/" class="nav-link">Contacts</a></li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
         </ul>
         <ul class="auth">
-          <li>
-            <a href="mailto:info@devstudio.com" class="info-link-1"
+          <li class="auth-item">
+            <a href="mailto:info@devstudio.com" class="info-tel"
               >info@devstudio.com
             </a>
           </li>
-          <li>
-            <a href="tel:+11(000)1111111" class="info-link-2"
+          <li class="auth-item">
+            <a href="tel:+110001111111" class="info-mail"
               >+11 (000) 111-11-11
             </a>
           </li>
@@ -49,13 +45,11 @@
       <!-- SOLUTIONS SECTION -->
       <section class="solutions">
         <h1 class="solutions-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="order-btn">
-          <span class="btn-text"> Order Service</span>
-        </button>
+        <button type="button" class="order-btn">Order Service</button>
       </section>
       <!-- AIM SECTION -->
       <section class="aim">
-        <h2 hidden>Features</h2>
+        <h2 class="hidden">Features</h2>
         <ul class="features-list">
           <li class="features-item">
             <h3 class="aim-title">Strategy</h3>
@@ -87,31 +81,32 @@
           </li>
         </ul>
       </section>
-      <section class="section-2">
-        <h2 class="section-2-title">What are we doing</h2>
-        <ul class="img-list">
+      <!-- ACTIVITIES -->
+      <section class="activities">
+        <h2 class="activities-title">What Are We Doing</h2>
+        <ul class="activities-list">
           <li>
             <img
-              src="./images/img-1.jpg"
+              src="./images/activities-img-1.jpg"
               width="360"
               alt="business"
-              class="image-1"
+              class="img-activities-1"
             />
           </li>
           <li>
             <img
-              src="./images/img-2.jpg"
+              src="./images/activities-img-2.jpg"
               width="360"
               alt="communication"
-              class="image-2"
+              class="img-activities-2"
             />
           </li>
           <li>
             <img
-              src="./images/img-3.jpg"
+              src="./images/activities-img-3.jpg"
               width="360"
               alt="travel"
-              class="image-3"
+              class="img-activities-3"
             />
           </li>
         </ul>
@@ -123,9 +118,9 @@
           <li class="team-member">
             <img
               width="264"
-              src="./images/img-4.jpg"
+              src="./images/team-img-1.jpg"
               alt="Mark Guerrero"
-              class="img-team"
+              class="img-team-1"
             />
             <h3 class="team-name">Mark Guerrero</h3>
             <p class="team-desc">Product Designer</p>
@@ -133,9 +128,9 @@
           <li class="team-member">
             <img
               width="264"
-              src="./images/img-5.jpg"
+              src="./images/team-img-2.jpg"
               alt="Tom Ford"
-              class="img-team"
+              class="img-team-2"
             />
             <h3 class="team-name">Tom Ford</h3>
             <p class="team-desc">Frontend Developer</p>
@@ -143,9 +138,9 @@
           <li class="team-member">
             <img
               width="264"
-              src="./images/img-6.jpg"
+              src="./images/team-img-3.jpg"
               alt="Camila Garcia"
-              class="img-team"
+              class="img-team-3"
             />
             <h3 class="team-name">Camila Garcia</h3>
             <p class="team-desc">Marketing</p>
@@ -153,9 +148,9 @@
           <li class="team-member">
             <img
               width="264"
-              src="./images/img-7.jpg"
+              src="./images/team-img-4.jpg"
               alt="Daniel Wilson"
-              class="img-team"
+              class="img-team-4"
             />
             <h3 class="team-name">Daniel Wilson</h3>
             <p class="team-desc">UI Designer</p>
@@ -165,7 +160,7 @@
     </main>
     <!-- FOOTER -->
     <footer class="footer">
-      <a href="/" class="logo"><span class="web">WEB</span>STUDIO</a>
+      <a href="index.html" class="logo"><span class="web">WEB</span>STUDIO</a>
       <p class="footer-desc">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
